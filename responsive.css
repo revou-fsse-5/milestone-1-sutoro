@@ -1,0 +1,38 @@
+/* Media Query for Navbar */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+    text-align: center;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    width: 200px;
+    position: absolute;
+    top: 100%;
+    background: var(--background-gradient);
+    opacity: 0.9;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .hamburger.open .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.open .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.open .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav a {
+    text-align: right;
+    padding: 10px 30px 10px 0;
+  }
+}
