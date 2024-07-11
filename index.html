@@ -3,21 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jacaranda Garden Maintenance</title>
+  <link rel="icon" type="image/x-icon" href="images/jacaranda.png">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="responsive.css">
-  <title>Document</title>
 </head>
 <body>
   <script src="script.js"></script>
   <header>
-    <nav>
-      <p class="nav-corner">Jacaranda Garden Maintenance</p>
+    <nav class="logo">
+      <p>Jacaranda Garden Maintenance</p>
     </nav>
     <nav class="navbar">
       <div class="nav" id="nav">
         <a href="#default">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a href="#about">About Us</a>
+        <a href="#quote">Get Quote</a>
+        <a href="#contact">Contact Us</a>
       </div>
       <div class="hamburger" id="hamburger">
         <div class="bar"></div>
@@ -30,35 +32,59 @@
 
   <div class="about">
     <section class="about1">
+      <h1 style="text-align: left;">About Us</h1>
     </section>
     <section class="about2">
-      <h1>Jacaranda Garden Maintenance</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Jacaranda Garden Maintenance has been providing exceptional gardening services to the Sydney Lower North Shore for over 20 years. We are a dedicated team of passionate and experienced professionals who take pride in creating beautiful and healthy outdoor spaces for our clients.</p>
     </section>
     <section class="about3">
-      <img src="images/Strata-1.jpg" alt="A man trimming the hedges">
+      <img src="images/jacaranda.png" alt="Jacaranda Tree">
     </section>
   </div>
 
-  <h1>test</h1>
-  <h2>test</h2>
-  <p>test</p>
-
-
-  <p>Our Services</p>
+  <h1>Our Service</h1>
   <ul>
-    <li>Lorem ipsum dolor sit amet</li>
-    <li>Lorem ipsum dolor sit amet</li>
-    <li>Lorem ipsum dolor sit amet</li>
-    <li>Lorem ipsum dolor sit amet</li>
-    <li>Lorem ipsum dolor sit amet</li>
+    <li><b>Gardening</b>: We offer a comprehensive range of gardening services, including planting, weeding, mulching, garden bed maintenance, and more.</li>
+    <li><b>Mowing</b>: Keep your lawn looking neat and tidy with our efficient mowing services. We can handle lawns of all sizes and complexities.</li>
+    <li><b>Hedging</b>: We'll keep your hedges looking sharp and under control with our precise hedging skills.</li>
+    <li><b>General Strata Cleaning</b>: We provide comprehensive cleaning services for strata properties, including garden maintenance, rubbish removal, and high-pressure cleaning.</li>
   </ul>
 
-  <p style="margin-bottom: 200px;">batas</p>
+  <div class="wrapperr">
+    <div class="service service1"><p>Gardening</p></div>
+    <div class="service service2"><p>Mowing</p></div>
+    <div class="service service3"><p>Hedging</p></div>
+    <div class="service service4"><p>General Cleaning</p></div>
+    <div class="service service5"><p>Carpet Cleaning</p></div>
+    <div class="service service6"><p>Blast Cleaning</p></div>
+    <div class="service service7"><p>etc.</p></div>
+  </div>
 
-  <h1>Request for a Quote</h1>
+  <h1>Service Area</h1>
+  <div class="wrapper">
+    <div class="item item1"><p>Cammeray</p></div>
+    <div class="item item2"><p>Crows Nest</p></div>
+    <div class="item item3"><p>Greenwich</p></div>
+    <div class="item item4"><p>Milsons Point</p></div>
+    <div class="item item5"><p>North Sydney</p></div>
+    <div class="item item6"><p>St Leonards</p></div>
+    <div class="item item7"><p>Waverton</p></div>
+    <div class="item item8"><p>Wollstonecraft</p></div>
+  </div>
+
+<h1>Why Choose Jacaranda Garden Maintenance?</h1>
+<ol>
+  <li><b>Experience</b>: With over 20 years in the business, we have the expertise and knowledge to handle any gardening or cleaning task.</li>
+  <li><b>Reliability</b>: You can count on us to show up on time and complete the job to the highest standard.</li>
+  <li><b>Quality</b>: We use the latest equipment and techniques to ensure a professional and lasting finish.</li>
+  <li><b>Communication</b>: We'll keep you informed throughout the process and are always happy to answer any questions you may have.</li>
+  <li><b>Local Expertise</b>: We understand the specific needs of gardens in the Lower North Shore climate.</li>
+</ol>
+
+
+  <h1 style="margin-top: 50px;">Get Quote</h1>
   <section class="quote">
-    <div class="div1"><p>ini buat gambar test ttttttt tttttt tttttt ttttttt tttttt ttttt tttttt tttt</p></div>
+    <div class="div1"><img src="images/quote.png" alt="quote"></div>
 
     <div class="div2"><label for="fname">First Name</label></div>
 
@@ -84,11 +110,14 @@
 
     <div class="div13">
       <select name="suburb" id="suburb">
-        <option value="crowsnest">Crowsnest</option>
+        <option value="cammeray">Cammeray</option>
+        <option value="crowsnest">Crows Nest</option>
         <option value="greenwich">Greenwich</option>
+        <option value="mspoints">Milsons Point</option>
         <option value="northsydney">North Sydney</option>
         <option value="stleonard">St Leonard</option>
-        <option value="wolstonecraft">Wolstonecraft</option>
+        <option value="waverton">Waverton</option>
+        <option value="wollstonecraft">Wollstonecraft</option>
       </select>
     </div>
     
@@ -97,23 +126,23 @@
     <div class="div15">
       <select name="postcode" id="postcode">
         <option value="2060">2060</option>
+        <option value="2061">2061</option>
         <option value="2062">2062</option>
         <option value="2065">2065</option>
-        <option value="2011">2011</option>
       </select>
     </div>
 
     <div class="div16"><p>Service</p></div>
 
     <div class="div17">
-      <input type="checkbox" id="general" name="general">
-      <label for="general">General Cleaning</label><br>
+      <input type="checkbox" id="gardening" name="gardening">
+      <label for="gardening">Gardening</label><br>
       <input type="checkbox" id="mowing" name="mowing">
       <label for="mowing">Mowing</label><br>
-      <input type="checkbox" id="trimming" name="trimming">
-      <label for="trimming">Trimming</label><br>
       <input type="checkbox" id="hedging" name="hedging">
       <label for="hedging">Hedging</label><br>
+      <input type="checkbox" id="general" name="general">
+      <label for="general">General Cleaning</label><br><br>
       <p><label for="addition">Anything else you would like to add?</label></p>
       <textarea name="addition" id="addition" rows="4" cols="50"></textarea>
     </div>
@@ -121,10 +150,17 @@
     <div class="div18"> </div>
 
     <div class="div19"><input type="submit" value="Submit"></div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <h1>Contact Us</h1>
+      <h2>Jacaranda Garden Maintenance</h2>
+      <p>P.O Box 328, Cammeray NSW 2062</p>
+      <p>jacarandagardens@garden.com</p>
+      <p>0404889711</p>
     </div>
-
-  <h1 style="margin-top: 200px;">batas</h1>
-
+  </footer>
 
 </body>
 </html>
