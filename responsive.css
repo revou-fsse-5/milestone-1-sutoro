@@ -236,7 +236,7 @@
   .div12,
   .div14,
   .div16 {
-    margin-left: 20%;
+    margin-left: 15%;
     margin-bottom: 10px;
   }
 
@@ -247,7 +247,7 @@
   .div11 input {
     color: black;
     width: 300px;
-    margin-left: 25%;
+    margin-left: 20%;
     margin-bottom: 20px;
   }
 
@@ -255,7 +255,7 @@
   .div15 select {
     width: 200px;
     color: black;
-    margin-left: 25%;
+    margin-left: 20%;
     margin-bottom: 20px;
   }
 
@@ -264,7 +264,7 @@
   .div17 textarea,
   .div19 input {
     color: black;
-    margin-left: 25%;
+    margin-left: 20%;
     margin-bottom: 20px;
   }
 
