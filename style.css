@@ -373,7 +373,7 @@ header {
 }
 
 .footer1 img {
-  max-height: 350px;
+  max-height: 250px;
 }
 
 .footer2 {
@@ -383,6 +383,11 @@ header {
 
 .footer3 {
   grid-area: 1 / 3 / 2 / 4;
+  justify-content: right;
+  text-align: right;
+}
+
+.footer3 p {
   text-align: right;
 }
 
