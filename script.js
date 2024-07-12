@@ -1,5 +1,8 @@
-document.getElementById('hamburger').addEventListener('click', function () {
-  this.classList.toggle('open');
-  document.getElementById('nav').classList.toggle('open');
-});
+document.addEventListener('DOMContentLoaded', () => {
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.querySelector('.nav-links');
 
+  hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+  });
+});
